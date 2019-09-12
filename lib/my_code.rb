@@ -10,6 +10,7 @@ end
 
 
 def reduce(array, sv = nil)
+  if 
   i = 0 
   while array.length > i do
     
