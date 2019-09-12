@@ -18,6 +18,7 @@ def reduce(array, sv = nil)
     i =1  
   end
   while array.length > i do
-    sum = yield(n, array[i])
+    sum = yield(sum, array[i])
+    i += 1 
   end
 end 
