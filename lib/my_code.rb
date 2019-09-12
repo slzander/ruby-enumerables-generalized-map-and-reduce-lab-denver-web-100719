@@ -13,7 +13,8 @@ def reduce(array, sv = nil)
   if sv 
     n = sv
     i = 0 
-    
+  else 
+    n = 
   end
   i = 0 
   while array.length > i do
