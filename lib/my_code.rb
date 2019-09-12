@@ -14,7 +14,8 @@ def reduce(array, sv = nil)
     n = sv
     i = 0 
   else 
-    n = 
+    n = array[0]
+    i =1  
   end
   i = 0 
   while array.length > i do
